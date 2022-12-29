@@ -1,0 +1,1458 @@
+1672237890942	geckodriver	INFO	Listening on 127.0.0.1:50833
+1672237894002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50834" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofile34JxyU"
+1672237894626	Marionette	INFO	Marionette enabled
+1672237894632	Marionette	INFO	Listening on port 50848
+Read port: 50848
+WebDriver BiDi listening on ws://127.0.0.1:50834
+1672237894792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofile34JxyU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50834/devtools/browser/96b0d752-989e-4aea-a6cb-25e3d06b0cc9
+1672237903995	Marionette	INFO	Stopped listening on port 50848
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver --port <PORT>
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver --port <PORT>
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver --port <PORT>
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver --port <PORT>
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver --port <PORT>
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver --port <PORT>
+
+For more information try --help
+
+1672239597350	geckodriver	INFO	Listening on 127.0.0.1:52694
+1672239600393	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52695" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofiledw3Jqq"
+1672239600964	Marionette	INFO	Marionette enabled
+1672239600973	Marionette	INFO	Listening on port 52706
+Read port: 52706
+WebDriver BiDi listening on ws://127.0.0.1:52695
+1672239601148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofiledw3Jqq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52695/devtools/browser/2fcc80d0-c2ac-47e9-99c2-9b247a44fde4
+1672239608182	Marionette	INFO	Stopped listening on port 52706
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672239641138	geckodriver	INFO	Listening on 127.0.0.1:52764
+1672239644172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52765" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilew9xkd3"
+1672239644897	Marionette	INFO	Marionette enabled
+1672239644906	Marionette	INFO	Listening on port 52774
+Read port: 52774
+WebDriver BiDi listening on ws://127.0.0.1:52765
+1672239645045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilew9xkd3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52765/devtools/browser/8a5f695b-90da-42da-8409-6866b5377c70
+1672239655206	Marionette	INFO	Stopped listening on port 52774
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672239695190	geckodriver	INFO	Listening on 127.0.0.1:52828
+1672239703324	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileahvHNu"
+1672239703777	Marionette	INFO	Marionette enabled
+1672239703785	Marionette	INFO	Listening on port 52839
+WebDriver BiDi listening on ws://127.0.0.1:52829
+Read port: 52839
+1672239704053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52829/devtools/browser/372b8d74-f76d-43e6-b7db-4d2208227fc3
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\RUBJIT~1\AppData\Local\Temp\rust_mozprofileahvHNu\thumbnails) because it does not exist
+1672240696899	Marionette	INFO	Stopped listening on port 52839
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "65486" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileYodOTT"
+1672240659467	Marionette	INFO	Marionette enabled
+1672240659477	Marionette	INFO	Listening on port 65496
+Read port: 65496
+WebDriver BiDi listening on ws://127.0.0.1:65486
+1672240659617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileYodOTT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65486/devtools/browser/2e38f231-f0be-4198-9b79-7501755b5cc4
+1672240695048	Marionette	INFO	Stopped listening on port 65496
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resourc1672240697845	Marionette	INFO	Stopped listening on port 49154
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+submit@resource://services-sync/telemetry.js:826:32
+finish@resource://services-sync/telemetry.js:797:10
+shutdown@resource://services-sync/telemetry.js:807:10
+SyncTelemetryImpl/<@resource://services-sync/telemetry.js:681:66
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:946:14
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+1672240698119	Sync.Telemetry	ERROR	failed to submit ping: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"(resource://gre/modules/AsyncShutdown.jsm:703:15) JS Stack trace: addBlocker@AsyncShutdown.jsm:703:15
+addBlocker@AsyncShutdown.jsm:511:26
+addBlocker@AsyncShutdown.jsm:450:15
+setupShutdown@osfile_async_front.jsm:1563:28
+@osfile_async_front.jsm:1583:16
+@osfile.jsm:12:30
+@TelemetryStorage.jsm:19:28
+promiseArchivePing@TelemetryArchive.jsm:103:5
+promiseArchivePing@TelemetryArchive.jsm:63:33
+_submitPingLogic@TelemetryControllerParent.jsm:540:48
+send@TelemetryControllerParent.jsm:628:24
+submitExternalPing@TelemetryControllerParent.jsm:182:17
+submit@telemetry.js:826:32
+finish@telemetry.js:797:10
+shutdown@telemetry.js:807:10
+SyncTelemetryImpl/<@telemetry.js:681:66
+_cleanupOnShutdown@TelemetryControllerParent.jsm:946:14
+observe@AsyncShutdown.jsm:560:16
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672240710944	geckodriver	INFO	Listening on 127.0.0.1:49294
+1672240717920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49295" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilePr63VJ"
+1672240718552	Marionette	INFO	Marionette enabled
+1672240718565	Marionette	INFO	Listening on port 49305
+Read port: 49305
+WebDriver BiDi listening on ws://127.0.0.1:49295
+1672240718670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49295/devtools/browser/0099e3bd-5814-4e17-8dbf-058ae3694008
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\RUBJIT~1\AppData\Local\Temp\rust_mozprofilePr63VJ\thumbnails) because it does not exist
+1672240964589	Marionette	INFO	Stopped listening on port 49305
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "49331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileSmpbM6"
+1672240759804	Marionette	INFO	Marionette enabled
+1672240759815	Marionette	INFO	Listening on port 49342
+WebDriver BiDi listening on ws://127.0.0.1:49331
+Read port: 49342
+1672240760114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileSmpbM6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49331/devtools/browser/f70263e1-ebc7-4e0a-b1a1-33a82bd0758d
+1672240965003	Marionette	INFO	Stopped listening on port 49342
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "49370" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofile9z5a0X"
+1672240774489	Marionette	INFO	Marionette enabled
+1672240774494	Marionette	INFO	Listening on port 49380
+Read port: 49380
+WebDriver BiDi listening on ws://127.0.0.1:49370
+1672240774635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49370/devtools/browser/ef757f32-9a43-44a8-8e87-e22a9bec1f13
+1672240788710	Marionette	INFO	Stopped listening on port 49380
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+submit@resource://services-sync/telemetry.js:826:32
+finish@resource://services-sync/telemetry.js:797:10
+shutdown@resource://services-sync/telemetry.js:807:10
+SyncTelemetryImpl/<@resource://services-sync/telemetry.js:681:66
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:946:14
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+1672240788885	Sync.Telemetry	ERROR	failed to submit ping: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"(resource://gre/modules/AsyncShutdown.jsm:703:15) JS Stack trace: addBlocker@AsyncShutdown.jsm:703:15
+addBlocker@AsyncShutdown.jsm:511:26
+addBlocker@AsyncShutdown.jsm:450:15
+setupShutdown@osfile_async_front.jsm:1563:28
+@osfile_async_front.jsm:1583:16
+@osfile.jsm:12:30
+@TelemetryStorage.jsm:19:28
+promiseArchivePing@TelemetryArchive.jsm:103:5
+promiseArchivePing@TelemetryArchive.jsm:63:33
+_submitPingLogic@TelemetryControllerParent.jsm:540:48
+send@TelemetryControllerParent.jsm:628:24
+submitExternalPing@TelemetryControllerParent.jsm:182:17
+submit@telemetry.js:826:32
+finish@telemetry.js:797:10
+shutdown@telemetry.js:807:10
+SyncTelemetryImpl/<@telemetry.js:681:66
+_cleanupOnShutdown@TelemetryControllerParent.jsm:946:14
+observe@AsyncShutdown.jsm:560:16
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672240804485	geckodriver	INFO	Listening on 127.0.0.1:49726
+1672240807533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49727" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilejCMG7p"
+1672240808130	Marionette	INFO	Marionette enabled
+1672240808137	Marionette	INFO	Listening on port 49736
+Read port: 49736
+WebDriver BiDi listening on ws://127.0.0.1:49727
+1672240808299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilejCMG7p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49727/devtools/browser/c5eb5696-e3ef-4df0-9aeb-57107d69eee3
+1672240969517	Marionette	INFO	Stopped listening on port 49736
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "49765" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileqDqgyG"
+1672240822806	Marionette	INFO	Marionette enabled
+1672240822820	Marionette	INFO	Listening on port 49777
+Read port: 49777
+WebDriver BiDi listening on ws://127.0.0.1:49765
+1672240822958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49765/devtools/browser/665234ca-3be4-4387-a0bb-4881940f3282
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\RUBJIT~1\AppData\Local\Temp\rust_mozprofileqDqgyG\thumbnails) because it does not exist
+1672240969519	Marionette	INFO	Stopped listening on port 49777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "49805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilezcxRDH"
+1672240866158	Marionette	INFO	Marionette enabled
+1672240866166	Marionette	INFO	Listening on port 49814
+Read port: 49814
+WebDriver BiDi listening on ws://127.0.0.1:49805
+1672240866371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilezcxRDH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49805/devtools/browser/9d789e5c-cb7b-463b-8745-bb0b313c84d1
+1672240969517	Marionette	INFO	Stopped listening on port 49814
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "49844" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileBLLdKy"
+1672240880905	Marionette	INFO	Marionette enabled
+1672240880922	Marionette	INFO	Listening on port 49855
+Read port: 49855
+WebDriver BiDi listening on ws://127.0.0.1:49844
+1672240881103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49844/devtools/browser/5a5570be-8e47-4b9e-922c-ff0fc9f214de
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\RUBJIT~1\AppData\Local\Temp\rust_mozprofileBLLdKy\thumbnails) because it does not exist
+1672240969443	Marionette	INFO	Stopped listening on port 49855
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "49949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileK3408c"
+1672240926949	Marionette	INFO	Marionette enabled
+1672240926957	Marionette	INFO	Listening on port 49961
+WebDriver BiDi listening on ws://127.0.0.1:49949
+Read port: 49961
+1672240927147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileK3408c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49949/devtools/browser/2cb15191-c1e0-4ffa-b1e3-dbf9c5506015
+1672240969886	Marionette	INFO	Stopped listening on port 49961
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1672240969992	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@sys.mjs:51
+destroy()@sys.mjs:201
+deleteSession()@sys.WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArWARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+ "OS.File: flush I/O queued before profileBeforeChange"
+1672241191915	geckodriver	INFO	Listening on 127.0.0.1:50256
+1672241194947	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileNbjtEH"
+1672241195665	Marionette	INFO	Marionette enabled
+1672241195677	Marionette	INFO	Listening on port 50268
+Read port: 50268
+WebDriver BiDi listening on ws://127.0.0.1:50257
+1672241195904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileNbjtEH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50257/devtools/browser/badc1a40-2258-41be-9845-8d4ccf719431
+1672241204776	Marionette	INFO	Stopped listening on port 50261672241208985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileEBEf4Y"
+1672241209532	Marionette	INFO	Marionette enabled
+1672241209539	Marionette	INFO	Listening on port 50311
+Read port: 50311
+WebDriver BiDi listening on ws://127.0.0.1:50299
+1672241209688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50299/devtools/browser/b8f8db23-b8dc-48e5-92f4-442e04bb3587
+1672241228429	Marionette	INFO	Stopped listening on port 50311
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+submit@resource://services-sync/telemetry.js:826:32
+finish@resource://services-sync/telemetry.js:797:10
+shutdown@resource://services-sync/telemetry.js:807:10
+SyncTelemetryImpl/<@resource://services-sync/telemetry.js:681:66
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:946:14
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+1672241228615	Sync.Telemetry	ERROR	failed to submit ping: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"(resource://gre/modules/AsyncShutdown.jsm:703:15) JS Stack trace: addBlocker@AsyncShutdown.jsm:703:15
+addBlocker@AsyncShutdown.jsm:511:26
+addBlocker@AsyncShutdown.jsm:450:15
+setupShutdown@osfile_async_front.jsm:1563:28
+@osfile_async_front.jsm:1583:16
+@osfile.jsm:12:30
+@TelemetryStorage.jsm:19:28
+promiseArchivePing@TelemetryArchive.jsm:103:5
+promiseArchivePing@TelemetryArchive.jsm:63:33
+_submitPingLogic@TelemetryControllerParent.jsm:540:48
+send@TelemetryControllerParent.jsm:628:24
+submitExternalPing@TelemetryControllerParent.jsm:182:17
+submit@telemetry.js:826:32
+finish@telemetry.js:797:10
+shutdown@telemetry.js:807:10
+SyncTelemetryImpl/<@telemetry.js:681:66
+_cleanupOnShutdown@TelemetryControllerParent.jsm:946:14
+observe@AsyncShutdown.jsm:560:16
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672241262040	geckodriver	INFO	Listening on 127.0.0.1:50410
+1672241265093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileL1r1Jb"
+1672241265741	Marionette	INFO	Marionette enabled
+1672241265747	Marionette	INFO	Listening on port 50423
+WebDriver BiDi listening on ws://127.0.0.1:50411
+Read port: 50423
+1672241265929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileL1r1Jb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50411/devtools/browser/b51fe5bb-5647-49d7-a397-f6e907f0f346
+1672241796573	Marionette	INFO	Stopped listening on port 50423
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileCdWxxZ"
+1672241280673	Marionette	INFO	Marionette enabled
+1672241280689	Marionette	INFO	Listening on port 50466
+Read port: 50466
+WebDriver BiDi listening on ws://127.0.0.1:50453
+1672241280881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50453/devtools/browser/eb7e5594-a01f-4d07-9e51-6c22be891cff
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\RUBJIT~1\AppData\Local\Temp\rust_mozprofileCdWxxZ\thumbnails) because it does not exist
+1672241457735	Marionette	INFO	Stopped listening on port 50466
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672241466195	geckodriver	INFO	Listening on 127.0.0.1:50623
+1672241469238	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50624" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilepzmQC6"
+1672241469812	Marionette	INFO	Marionette enabled
+1672241469821	Marionette	INFO	Listening on port 50634
+Read port: 50634
+WebDriver BiDi listening on ws://127.0.0.1:50624
+1672241469982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilepzmQC6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50624/devtools/browser/47499283-140d-4a1d-b6da-9096df462e16
+1672241596133	Marionette	INFO	Stopped listening on port 50634
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50663" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileMnKytz"
+1672241484197	Marionette	INFO	Marionette enabled
+1672241484209	Marionette	INFO	Listening on port 50678
+Read port: 50678
+WebDriver BiDi listening on ws://127.0.0.1:50663
+1672241484360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50663/devtools/browser/efca48d4-28e4-420a-9391-0d0a6012c796
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\RUBJIT~1\AppData\Local\Temp\rust_mozprofileMnKytz\thumbnails) because it does not exist
+1672241593406	Marionette	INFO	Stopped listening on port 50678
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672241602257	geckodriver	INFO	Listening on 127.0.0.1:50771
+1672241609453	geckodriver	INFO	Listening on 127.0.0.1:50783
+1672241612503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50784" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileftiQgw"
+1672241613017	Marionette	INFO	Marionette enabled
+1672241613030	Marionette	INFO	Listening on port 50795
+Read port: 50795
+WebDriver BiDi listening on ws://127.0.0.1:50784
+1672241613214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileftiQgw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50784/devtools/browser/80cba2ff-81fe-479c-bf25-9da0ca76d30d
+1672241794598	Marionette	INFO	Stopped listening on port 50795
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+rs\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileatnXou"
+1672241627838	Marionette	INFO	Marionette enabled
+1672241627854	Marionette	INFO	Listening on port 50832
+Read port: 50832
+WebDriver BiDi listening on ws://127.0.0.1:50823
+1672241628028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50823/devtools/browser/178b5658-5030-4e60-ab1f-f803350606d7
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\RUBJIT~1\AppData\Local\Temp\rust_mozprofileatnXou\thumbnails) because it does not exist
+console.error: "Error while calling actor 'customhighlighter's method 'show'" "Range.selectNodeContents: Argument 1 is not an object."
+console.error: (new TypeError("Range.selectNodeContents: Argument 1 is not an object.", "resource://devtools/server/actors/highlighters/fonts.js", 76))
+console.warn: "Failed to enumerate CacheStorage for host https://lpcdn.lpsnmedia.net: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://lo.idp.liveperson.net: SecurityError: The operation is insecure."
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: (new Error("Can not send request 'getAllUsedFontFaces' because front 'pagestyle' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Failed to enumerate CacheStorage for host https://tr.snapchat.com: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://insight.adsrvr.org: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://insight.adsrvr.org: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://8189056.fls.doubleclick.net: SecurityError: The operation is insecure."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Failed to enumerate CacheStorage for host https://ct.pinterest.com: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://adservice.google.com: SecurityError: The operation is insecure."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Failed to enumerate CacheStorage for host https://adservice.google.co.uk: SecurityError: The operation is insecure."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "[COMPATIBILITY_UPDATE_TOP_LEVEL_TARGET_FAILURE] this.parentFront is null"
+console.error: "get inspectorFront@resource://devtools/client/fronts/node.js:489:5\n_getNodeIssues@resource://devtools/client/inspector/compatibility/actions/compatibility.js:250:25\n_inspectNode@resource://devtools/client/inspector/compatibility/actions/compatibility.js:264:24\n_inspectNode@resource://devtools/client/inspector/compatibility/actions/compatibility.js:276:11\n"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672241767261	Marionette	INFO	Stopped listening on port 50832
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672242077992	geckodriver	INFO	Listening on 127.0.0.1:51173
+1672242086892	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51174" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileUnrjby"
+1672242087449	Marionette	INFO	Marionette enabled
+1672242087456	Marionette	INFO	Listening on port 51193
+WebDriver BiDi listening on ws://127.0.0.1:51174
+Read port: 51193
+1672242087754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51174/devtools/browser/421cf82f-1330-460b-ac79-a56f31299ce2
+1672242864084	Marionette	INFO	Stopped listening on port 51193
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilezQNTsl"
+1672242171128	Marionette	INFO	Marionette enabled
+1672242171137	Marionette	INFO	Listening on port 51254
+Read port: 51254
+WebDriver BiDi listening on ws://127.0.0.1:51245
+1672242171323	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilezQNTsl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51245/devtools/browser/3c244b70-dd40-4660-b78b-dccfe06608af
+1672242864513	Marionette	INFO	Stopped listening on port 51254
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilelGKlbZ"
+1672242186463	Marionette	INFO	Marionette enabled
+1672242186470	Marionette	INFO	Listening on port 51293
+Read port: 51293
+WebDriver BiDi listening on ws://127.0.0.1:51283
+1672242186596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51283/devtools/browser/c900ac79-64c1-43e6-b8d0-06371bc72e47
+JavaScript warning: https://assets.adobedtm.com/launch-EN919758db9a654a17bac7d184b99c4820.min.js, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 587: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1672242866403	Marionette	INFO	Stopped listening on port 51293
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51628" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileEyyM5F"
+1672242399286	Marionette	INFO	Marionette enabled
+1672242399298	Marionette	INFO	Listening on port 51641
+Read port: 51641
+WebDriver BiDi listening on ws://127.0.0.1:51628
+1672242399513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileEyyM5F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51628/devtools/browser/7d96de71-0540-47e4-8b71-e232891f0164
+1672242868673	Marionette	INFO	Stopped listening on port 51641
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileHapWZn"
+1672242414094	Marionette	INFO	Marionette enabled
+1672242414105	Marionette	INFO	Listening on port 51681
+Read port: 51681
+WebDriver BiDi listening on ws://127.0.0.1:51669
+1672242414277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51669/devtools/browser/3f5308b8-c8a5-42f8-af89-5b26016cae74
+1672242870783	Marionette	INFO	Stopped listening on port 51681
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51710" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilerEWqJI"
+1672242440264	Marionette	INFO	Marionette enabled
+1672242440273	Marionette	INFO	Listening on port 51720
+Read port: 51720
+WebDriver BiDi listening on ws://127.0.0.1:51710
+1672242440399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilerEWqJI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51710/devtools/browser/b2f0640a-bab7-4842-9018-540740e4741e
+1672242873586	Marionette	INFO	Stopped listening on port 51720
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51748" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofiledfHsaE"
+1672242454954	Marionette	INFO	Marionette enabled
+1672242454960	Marionette	INFO	Listening on port 51757
+Read port: 51757
+WebDriver BiDi listening on ws://127.0.0.1:51748
+1672242455069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51748/devtools/browser/8abf58c1-0d8b-4c62-825f-e61e9633b6f1
+1672242876052	Marionette	INFO	Stopped listening on port 51757
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51944" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilexaRFJ4"
+1672242770454	Marionette	INFO	Marionette enabled
+1672242770464	Marionette	INFO	Listening on port 51956
+Read port: 51956
+WebDriver BiDi listening on ws://127.0.0.1:51944
+1672242770660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilexaRFJ4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51944/devtools/browser/59ded6cc-7f07-45ca-80e2-3547aa595a35
+1672242874658	Marionette	INFO	Stopped listening on port 51956
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51984" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileIpyB7x"
+1672242785568	Marionette	INFO	Marionette enabled
+1672242785582	Marionette	INFO	Listening on port 51994
+Read port: 51994
+WebDriver BiDi listening on ws://127.0.0.1:51984
+1672242785768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51984/devtools/browser/887a774d-5892-4f8f-9ab8-36ab4fb18ea7
+1672243082581	Marionette	INFO	Stopped listening on port 51994
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "52106" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofiledmWgzy"
+1672242910473	Marionette	INFO	Marionette enabled
+1672242910479	Marionette	INFO	Listening on port 52117
+Read port: 52117
+WebDriver BiDi listening on ws://127.0.0.1:52106
+1672242910641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofiledmWgzy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52106/devtools/browser/995d900d-dfb1-44e4-9b78-48a466259c1f
+JavaScript warning: https://www.autotrader.com/u7CBFNodr/hjplU5Fx2/q94q87u7c/7fEkXXX49VOL/LwkITClvAg/cDgtc/HFfcwkC, line 1: unreachable code after return statement
+JavaScript warning: https://www.autotrader.com/u7CBFNodr/hjplU5Fx2/q94q87u7c/7fEkXXX49VOL/LwkITClvAg/cDgtc/HFfcwkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.autotrader.com/u7CBFNodr/hjplU5Fx2/q94q87u7c/7fEkXXX49VOL/LwkITClvAg/cDgtc/HFfcwkC, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://www.autotrader.com/collections/client/js/vendors~awsamp~awsamplify.bb8687afa938d5fb8ff8.min.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.autotrader.com/collections/client/js/vendors~awsamp.5eca245d11a0bee86a26.min.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.autotrader.com/collections/client/js/awsamp.88f5d82dd546aeb78bdf.min.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QDrzY6hqzGh0aYGUuTA1ex70oaN1LFGaXyg_pTqcRvs.js line 2 > eval line 3980 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672243103737	Marionette	INFO	Stopped listening on port 52117
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672243114739	geckodriver	INFO	Listening on 127.0.0.1:57175
+1672243117773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57176" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileijghYF"
+1672243118421	Marionette	INFO	Marionette enabled
+1672243118428	Marionette	INFO	Listening on port 57210
+Read port: 57210
+WebDriver BiDi listening on ws://127.0.0.1:57176
+1672243118640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofileijghYF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57176/devtools/browser/8543895c-1b5f-41a7-98a1-cf2ce22b5a0f
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1672250642152	Marionette	INFO	Stopped listening on port 57210
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "localhost" "-no-remote" "-profile" "C:\\Users\\RUBJIT~1\\AppData\\Local\\Temp\\rust_mozprofilepw69pc"
+1672243133343	Marionette	INFO	Marionette enabled
+1672243133354	Marionette	INFO	Listening on port 57251
+Read port: 57251
+WebDriver BiDi listening on ws://127.0.0.1:57240
+1672243133542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57240/devtools/browser/795476f1-13aa-4cee-b56f-ecfff7746c65
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.warn: "Failed to enumerate CacheStorage for host https://lpcdn.lpsnmedia.net: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://lo.idp.liveperson.net: SecurityError: The operation is insecure."
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_UPDATE_TOP_LEVEL_TARGET_FAILURE] this.parentFront is null"
+console.error: "get inspectorFront@resource://devtools/client/fronts/node.js:489:5\n_getNodeIssues@resource://devtools/client/inspector/compatibility/actions/compatibility.js:250:25\n_inspectNode@resource://devtools/client/inspector/compatibility/actions/compatibility.js:264:24\n_inspectNode@resource://devtools/client/inspector/compatibility/actions/compatibility.js:276:11\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1595:22\n"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672248116486	Marionette	INFO	Stopped listening on port 57251
+ror: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QDrzY6hqzGh0aYGUuTA1ex70oaN1LFGaXyg_pTqcRvs.js line 2 > eval line 5689 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672243932621	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QDrzY6hqzGh0aYGUuTA1ex70oaN1LFGaXyg_pTqcRvs.js line 2 > eval line 2460 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://mtags.esri.com/tags.js, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QDrzY6hqzGh0aYGUuTA1ex70oaN1LFGaXyg_pTqcRvs.js line 2 > eval line 3379 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/beeswaxdisplay108801632049/moatad.js#moatClientLevel1=514&moatClientLevel2=9326&moatClientLevel3=75085&moatClientLevel4=54046&moatClientSlicer1=13947&moatClientSlicer2=734352169&zMoatAID=1672244021283405.254259910.5885.indeed&zMoatInvSource=GOOGLE_ADX, line 239: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
